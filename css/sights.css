@@ -1,0 +1,38 @@
+.sights_content {
+    width: 30%;
+}
+
+.list_sights {
+    padding: 3px;
+    text-align: left;
+}
+
+.list_sights li {
+    list-style: none;
+}
+
+.list_sights a {
+    text-decoration: none;
+}
+
+.list_sights span:hover {
+    font-weight: bolder;
+    color: #90806A;
+}
+
+.list_sights span {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.tooltip {
+    position: fixed;
+    padding: 10px 20px;
+    border: 1px solid #b3c9ce;
+    border-radius: 4px;
+    text-align: center;
+    font: italic 14px/1.3 sans-serif;
+    color: #333;
+    background: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+}

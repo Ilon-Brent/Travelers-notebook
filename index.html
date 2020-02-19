@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cities.css">
+    <link rel="stylesheet" href="css/sights.css">
+    <title>Traveler's notebook</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_content">
+            <h1>Traveler's notebook</h1>
+        </div>
+    </header>
+    <section id="cities_main_content">
+        <div class="container">
+            <div class="cities_content">
+                <h2 class="second_header">
+                    Find city information
+                </h2>
+                <div class="form">
+                    <form id="data">
+                        <select class="select" id="selectId">
+                            <option>select city</option>
+                            <option value="one" id="miami">Miami</option>
+                            <option value="two" id="moscow">Moscow</option>
+                            <option value="three" id="berlin">Berlin</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="form_table" id="form_table">
+                    <div class="form_table_item"><strong>name :</strong>
+                        <div id="form_table_name"></div>
+                    </div>
+                    <div class="form_table_item"><strong>population :</strong>
+                        <div id="form_table_population"></div>
+                    </div>
+                    <div class="form_table_item"><strong>language :</strong>
+                        <div id="form_table_language"></div>
+                    </div>
+                    <div class="form_table_item"><strong>sight :</strong>
+                        <div id="form_table_sight"></div>
+                    </div>
+                </div>
+                <div class="text_about_city" id="text_about_city"></div>
+                <button id="clearButton">clear history</button>
+            </div>
+            <div class="sights_content">
+                <h2 class="second_header">
+                    Top sights
+                </h2>
+                <div>
+                    <ul class="list_sights" id="list_sights">
+                        <li>Towers
+                            <ul>
+                                <li>modern towers
+                                    <ul>
+                                        <li>Burj Khalifa, Dubai, UAE<a
+                                                href="https://listovative.com/top-20-most-famous-towers-in-the-world/"
+                                                data-tooltip="Last, but in no ways the least, is Dubai’s latest addition to its exhibition of wealth – even the one and only Tom Cruise couldn’t stay away from this tower! Of course, it’s the undisputed king of towers, the 828 meter Burj Khalifa. The word gigantic doesn’t do justice to this structure. The tower is also home to the world’s highest mosque situated on the 158th floor. The tripedal design and its projecting edges are a few of the features that helped the Burj Khalifa break all barriers. Adrian Smith, the architect of this giant, wishes to surpass the kilometer mark in form of the Kingdom Tower in Riyadh which is slated to open in 2017.">
+                                                click link for more info</a></li>
+                                        <li>Eiffel Tower, Paris, France2 <a
+                                                href="https://listovative.com/top-20-most-famous-towers-in-the-world/"
+                                                data-tooltip="Bienvenue à Paris! And of course, the moment you step into Paris, the Eiffel Tower is the first monument you want to lay your eyes on. The tower was built by Gustave Eiffel as the entrance arch for the International Exhibition of Paris of 1889. Standing tall at 300 meters, it then held the record for the world’s tallest building, until the Chrysler Building was erected in 1930. As of date, more than 2 billion people have paid the Eiffel Tower a visit, making it the most visited paid monument in the world. The observation deck at the top offers Parisians and visitors alike magnificent views of the snaking Seine and all the famous monuments lined on its bank.">
+                                                click link for more info</a></li>
+                                        <li>Empire State Building, New York City, USA<a
+                                                href="https://listovative.com/top-20-most-famous-towers-in-the-world/"
+                                                data-tooltip="Despite King Kong swatting planes from its top, the Empire State Building still stands firm today. It also holds the unique record of being built in a year and 45 days, the fastest for a skyscraper of its height. ‘With the passing of the World Trade Center, it became even more entrenched in the hearts and souls of New Yorkers and the rest of the world,’ said actor Michael Greene. Measuring 437 meters, the tower held the record of ‘the tallest building in the word’ for a record 41 years.">
+                                                click link for more info</a></li>
+                                    </ul>
+                                </li>
+                                <li>old towers
+                                    <ul>
+                                        <li>Leaning Tower of Pisa, Pisa, Ialy<a
+                                                href="https://listovative.com/top-20-most-famous-towers-in-the-world/"
+                                                data-tooltip="Speaking of the fastest built tower, this tower right here would be ranked no.1 from the bottom! The Leaning Tower of Pisa, measuring only 56 meters, was built over a span of 177 years. In fact, the tower was left untouched for a century due to its poor foundation. Engineers had to build floors with one side higher than the other in order to compensate for the tilt. If you’re a climbing enthusiast, you can make your way up the 296 steps to the top of the tower.">
+                                                click link for more info</a></li>
+                                        <li>Space Needle, Seattle, USA<a
+                                                href="https://listovative.com/top-20-most-famous-towers-in-the-world/"
+                                                data-tooltip="Although this tower doesn’t boast of its massive height, the Space Needle remains an icon for Seattle till date. Built in 1961, this observation tower standing at 185 meters, is a landmark of the Pacific Northwest. The tower not only features an observation deck, but can also cater to your gastronomical cravings at the SkyCity Restaurant.">
+                                                click link for more info</a></li>
+                                        <!-- <li>old Tower 3 <a href="https://listovative.com/top-20-most-famous-towers-in-the-world/" data-tooltip="эта подсказка должна быть длиннее, чем элемент">  click link for more info></a></li> -->
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li> Castles
+                            <ul>
+                                <li>modern castles
+                                    <ul>
+                                        <li>The Palace of PenaSintra - Portugal<a
+                                                href="https://www.europeanbestdestinations.com/top/best-castles-in-europe/"
+                                                data-tooltip="Located in the Sintra hills, the Park and Palace of Pena are the fruit of King Ferdinand II’s creative genius and the greatest expression of 19th-century romanticism in Portugal, denoting clear influences from the Manueline and Moorish styles of architecture. The palace was built in such a way as to be visible from any point in the park, which consists of a forest and luxuriant gardens with over five hundred different species of trees originating from the four corners of the earth">
+                                                click link for more info</a></li>
+                                        <!-- <li>modern castle 2 <a href="" data-tooltip="эта подсказка должна быть длиннее, чем элемент">  click link for more info></a></li> -->
+                                        <!-- <li>modern castle 3 <a href="" data-tooltip="эта подсказка должна быть длиннее, чем элемент">  click link for more info></a></li> -->
+                                    </ul>
+                                </li>
+                                <li>old castles
+                                    <ul>
+                                        <li>Eltz Castle, Germany<a
+                                                href="https://www.thecrazytourist.com/25-most-beautiful-medieval-castles-in-the-world/"
+                                                data-tooltip="Eltz Castle has steadily become one of the most-photographed castles on Instagram with many landscape photographers choosing to capture it during the eerie hours of the day.">
+                                                click link for more info</a></li>
+                                        <li>Eilean Donan, Scotland<a
+                                                href="https://www.thecrazytourist.com/25-most-beautiful-medieval-castles-in-the-world/"
+                                                data-tooltip="Eilean Donan is perhaps one of the most well-known medieval castles, easily recognized by almost anyone. Partly, thanks to being featured in the 1986 film Highlander, but also as one of the must-see places in the Western Highlands of Scotland. This highland gem is located on an island between three sea lochs – Loch Duich, Loch Long and Loch Alsh.">
+                                                click link for more info</a></li>
+                                        <li>Edinburgh Castle, Scotland<a
+                                                href="https://www.thecrazytourist.com/25-most-beautiful-medieval-castles-in-the-world/"
+                                                data-tooltip="Another Scottish beauty is the Edinburgh Castle. Sitting on top of Castle Rock, it overlooks the capital of Scotland. Unsurprising, considering the majority of medieval castles had strategic locations; the key was being able to see the enemy and remain difficult to reach.">
+                                                click link for more info</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li> Bridges
+                            <ul>
+                                <li>modern bridges
+                                    <ul>
+                                        <li>Gateshead Millennium Bridge: Gateshead, England<a
+                                                href="https://edition.cnn.com/travel/article/most-amazing-bridges/index.html"
+                                                data-tooltip="The Gateshead Millennium Bridge is the world's first and currently only tilting bridge. But the most amazing thing about this pedestrian and biker crossing of the Tyne River is that it appears as if an eye is winking whenever it is raised and lowered">
+                                                click link for more info</a></li>
+                                        <!-- <li>modern Cave 2 <a href="" data-tooltip="эта подсказка должна быть длиннее, чем элемент">  click link for more info></a></li> -->
+                                        <!-- <li>modern Cave 3 <a href="" data-tooltip="эта подсказка должна быть длиннее, чем элемент">  click link for more info></a></li> -->
+                                    </ul>
+                                </li>
+                                <li>old bridges
+                                    <ul>
+                                        <li>Golden Gate Bridge: San Francisco, United States<a
+                                                href="https://edition.cnn.com/travel/article/most-amazing-bridges/index.html"
+                                                data-tooltip="Now over 75 years old, San Francisco's Golden Gate Bridge is arguably the most recognizable bridge in the world. While some may not be inspired by the industrial age suspension bridge design, it is undeniable that the San Francisco we know today would not be the same without its skyline being graced by this beauty.">
+                                                click link for more info</a></li>
+                                        <li>Sydney Harbour Bridge: Sydney, Australia<a
+                                                href="https://edition.cnn.com/travel/article/most-amazing-bridges/index.html"
+                                                data-tooltip="Nicknamed The Coat Hanger by Sydney locals because of its arch-based design, the Sydney Harbour Bridge opened in 1932 and is a focal point of Aussie pride and celebrations.">
+                                                click link for more info</a></li>
+                                        <li>Brooklyn Bridge: New York City, United States<a
+                                                href="https://edition.cnn.com/travel/article/most-amazing-bridges/index.html"
+                                                data-tooltip="Completed in 1883, the Brooklyn Bridge is one of the oldest suspension bridges in the United States. A National Historic Landmark, the Brooklyn Bridge is an iconic feature of New York.">
+                                                click link for more info</a></li>
+                                        <li>Khaju Bridge: Isfahan, Iran<a
+                                                href="https://edition.cnn.com/travel/article/most-amazing-bridges/index.html"
+                                                data-tooltip="Remarkable views, a useful design that regulates the flow of the river and it has lasted (built around 1650). The Khaju Bridge should be on any bridge fanatic's must-see list.">
+                                                click link for more info</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/cities_script.js">
+    </script>
+    <script src="js/sights_script.js"></script>
+</body>
+
+</html>
